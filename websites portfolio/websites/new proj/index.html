@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d6ac8a28bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICE</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headertext"></div>
+            <p>Front End Developer</p>
+            <h1>Hi,I'm <span style="color: #ff004f">Syed Samad</span> From India </h1>
+            <h2> I am Pursuing <span style="color: #ff004f">B.Tech</span> from <span style="color: #ff004f">SVIT</span></h2>
+
+        </div>
+    </div>  
+</div>
+<!--------------------about------------------>
+<div id="about">
+  <div class="container">
+     <div class="row">
+         <div class="about-col-1">
+            <img src="user.jpg">
+         </div>
+         <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am an Enthusiastic, Self-motivated , Reliable , Responsible and Hard Working person. I am a mature team Worker and adaptable to all Challenging situations.I am able to work well both in a teams environment as well as using own initiative. I am able to work well under pressure and adhere to stick deadlines</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>front-End Developer</span><br>HTML ,CSS, JavaScript</li>
+                    <li><span>MERN Stack</span><br>Complete MERN </li>
+                    <li><span>Data Base</span><br>SQL and MonngoDB</li> 
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023-current</span><br>Pursuing Engineering</li>
+                    <li><span>No Experience</span><br>Fresher</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>B-TECH(cse)</span><br>SVIT</li>
+                    <li><span>INTER</span><br>Sri Chaitanya Kalasala</li>
+                    <li><span>SSC</span><br> St Joseph High School </li>
+                    
+                </ul>
+            </div>
+         </div>
+        </div>
+    </div>  
+</div>
+<!-----------------------------service---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developers</h2>
+                <p>Creating, Mainatining and Manipulating web page.Open to Work alone or with Team also.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Full-Stack Web Developer </h2>
+                <p> Using HTML,CSS,JavaScript(framework) and Complete MERN Stack</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Data Base</h2>
+                <p>SQL And MongoDB</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------portfolio--------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+             <div class="work">
+                <img src="work-1.jpg">
+                <div class="layer">
+                    <h3>QR generator</h3>
+                    <p>You have to type Text in the inout section and press on the Generate Qr Button then the website Generate Qr code itself </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Google Forms</h3>
+                    <p>This is google Form for Student Registeration </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="work-3.jpg">
+                <div class="layer">
+                    <h3>PORTFOLIO</h3>
+                    <p>This is peronal  PORTFOLIO</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+             </div>
+        </div>
+         <a href="#" class="btn"> see more</a>
+         
+           
+         </div>   
+    </div>
+</div>
+<!-----------------------contact------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Syedsamad3102002@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9866553985</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/syed.samad.3958" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/SyedSam00137303" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/syedsamadhere/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/syedsamad12" target="_blank"><i class="fa-brands fa-github"></i>
+                    <a href="https://www.linkedin.com/in/syed-samad-b2128425b" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="cv.txt.docx" class="btn btn2 ">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Messages" rows="6" placeholder="Your Messages"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Syed Samad <i class="fas fa-heart"></i>( Front-End Developer )</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+          function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+             event.currentTarget.classList.add("active-link")
+              document.getElementById(tabname).classList.add("active-tab")
+
+          }
+
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+            
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+</body>
+</html>

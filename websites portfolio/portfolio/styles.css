@@ -1,0 +1,185 @@
+@import url('http://fonts.googleapis.com/css2?family=fira+sans&display=swap');
+@import url('http://fonts.googleapis.com/css2?family=source+code+pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+a{
+     display: block;
+    padding: 0px 30px;
+     color: #fff;
+     text-decoration: none;}
+ 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 38px;
+    line-height: 38px;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+li{
+    float: right;
+    border-right:1px solid #156ee2;
+}
+
+a:hover{
+    background-color: #156ee2;
+}
+
+
+.sideebar{
+    /*background-color: whitesmoke;*/
+    width: 20vw;
+    font-family: ' fira sans',sans-serif;
+    height: 50vw;
+    display: flex;
+}
+.sideebar nav{
+    padding: 72px;
+
+}
+.sideebar nav li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.main{
+     background-color: darkslategray;
+     height: 950x;
+    
+}
+.container {
+    display: flex;
+}
+.infocontainer{
+   height: 78vh;
+    width: 65vw;
+    padding: 67px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 30px;
+    font-weight: bold;
+}
+.name{
+    font-size: 27px;
+}
+.about{
+    font-size: 22px;
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 23px;
+    font-family: 'fira sans', sans-serif;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 5px;
+}
+ .buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 8px 3px;
+    cursor: pointer; 
+ }
+ .btn-sn{
+    font-size: 21px;
+    padding: 5px 9px;
+    background-color: dodgerblue;
+    margin: 12px 0;
+ }
+ .btn-sn:hover{
+    background-color: dodgerblue;
+    color: white ;
+ }
+
+ .buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+ }
+.myimg img{
+    width: 55vh ;
+}
+
+ #emailHelp{
+    font-size: 11px;
+    margin: 0 5px;
+ }
+ .form-check{
+    flex-direction: row;
+ }
+ .form-check input{
+    width: 24px;
+    margin: 3px 0;
+ }
+ .blogitem{
+    margin: 20px;
+    font-family: 'fira sans', sans-serif;
+
+ }
+  h1{
+    margin: 15px;
+    font-family: 'fira sans', sans-serif;
+    
+
+ }
+  p{
+    font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+ }
+.intro h2{
+    font-family: 'Fira sans', sans-serif;
+    margin: 10px;
+}
+.intro p{
+    margin: 15px;
+    font-family: 'fira sans', sans-serif;
+}
+@media (max-width:1200px) {
+
+    
+
+.devinfo{
+    font-size: 10px;
+}
+.buttons{
+    font-size: 6px;
+}
+
+}
+.cross{
+    margin: 185px;
+    margin-top: 10px;
+}
+.sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;}
+ .intro ,  .contactform{
+    margin:  50px 8px;
+ }
+ .blogcontainer{
+
+    margin: 50px 8px;
+ }
+ .sidebar{
+    margin: 50px 8px;
+ }
+}

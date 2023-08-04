@@ -1,0 +1,149 @@
+
+    
+
+.sidebar nav{
+    margin:  0 70px;
+     
+    padding:  450px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+    text-align: left;
+    text-decoration:none;
+    color: black
+    font-size : 30px;
+    padding: 33px 0;
+}
+.main{
+    background-color: #DEF2F1;
+    width: 120vw;
+}
+.container {
+    display: flex;
+}
+.infocontainer{
+    height: 78vh;
+    width: 65vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.hello{
+    font-size: 30px;
+    font-weight: bold;
+}
+.name{
+    font-size: 27px;
+}
+.about{
+    font-size: 22px;
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 23px;
+    font-family: 'fira sans', sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+ .buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 3px;
+    cursor: pointer; 
+ }
+ .btn-sn{
+    font-size: 21px;
+    padding: 10px 19px;
+    background-color: dodgerblue;
+    margin: 12px 0;
+ }
+ .btn-sn:hover{
+    background-color: dodgerblue;
+    color: white ;
+ }
+
+ .buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+ }
+.myimg img{
+    width: 55vh ;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 134px;
+    font-family: 'fira sans', sans-serif;  
+}
+.contactform h1{
+ font-weight: bold;  
+    padding: 12px 0;
+}
+.contactform  form div{
+    padding: 10px 0;
+    display: flex;
+      flex-direction: column;
+}
+contactform  form div input{
+  width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+ #emailHelp{
+    font-size: 11px;
+    margin: 0 5px;
+ }
+ .form-check{
+    flex-direction: row;
+ }
+ .form-check input{
+    width: 24px;
+    margin: 3px 0;
+ }
+ .blogitem{
+    margin: 20px;
+    font-family: 'fira sans', sans-serif;
+
+ }
+  h1{
+    margin: 15px;
+    font-family: 'fira sans', sans-serif;
+    
+
+ }
+  p{
+    font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+ }
+.intro h2{
+    font-family: 'Fira sans', sans-serif;
+    margin: 10px;
+}
+.intro p{
+    margin: 15px;
+    font-family: 'fira sans', sans-serif;
+}
+
+
+
+.sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+
+    

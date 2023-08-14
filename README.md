@@ -26,6 +26,6 @@ I've developed a strong skill set that allows me to bring creative concepts to l
 
 ## Contact
 
-I'm always eager to connect, collaborate, and learn from fellow developers and creators. You can reach out to me via [LinkedIn](https://www.linkedin.com/in/syed-samad-b2128425b/) . Whether it's feedback, collaboration opportunities, or just a friendly chat, I'd be thrilled to hear from you.
+I'm always eager to connect, collaborate, and learn from fellow developers and creators. You can reach out to me via [LinkedIn](https://www.linkedin.com/in/syed-samad-b2128425b/) . Email (syedsamad3102002@gmail.com) Whether it's feedback, collaboration opportunities, or just a friendly chat, I'd be thrilled to hear from you.
 
 Thank you for exploring my portfolio repository! Your interest means a lot to me, and I'm excited to continue growing and contributing to the web development community.
